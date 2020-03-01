@@ -22,48 +22,6 @@
 
 import SwiftUI
 
-enum GameState {
-    case start, win, lose, draw
-}
-
-enum Moves {
-    case rock, paper, scissor
-}
-
-struct MoveEmoji: View {
-    var move: Moves
-    
-    var body: some View {
-        Text(emoji(move))
-            .font(.system(size: 70))
-    }
-    
-    func emoji(_ move: Moves) -> String {
-        if move == .rock {
-            return "👊"
-        } else if move == .paper {
-            return "✋"
-        } else if move == .scissor {
-            return "✌️"
-        } else {
-            return ""
-        }
-    }
-}
-
-struct MovesStack<Content: View>: View {
-    let totalCount: Int
-    let content: (Int) -> Content
-
-    var body: some View {
-        HStack(spacing: 20) {
-            ForEach(0..<totalCount) { index in
-                self.content(index)
-            }
-        }
-    }
-}
-
 struct ContentView: View {
     let moves: [Moves] = [.rock, .paper, .scissor]
     @State private var appChoice = Int.random(in: 0...2)
