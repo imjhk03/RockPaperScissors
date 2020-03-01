@@ -1,4 +1,4 @@
 # RockPaperScissors
 SwiftUI Challenge
 
-Try to extract many Models and Views you can.
+Try to extract as many Models and Views you can.
