@@ -1,5 +1,5 @@
 //
-//  MovesStack.swift
+//  MoveStackView.swift
 //  RockPaperScissors
 //
 //  Created by JHK on 20. 03. 01..
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MovesStack<Content: View>: View {
+struct MoveStackView<Content: View>: View {
     let totalCount: Int
     let content: (Int) -> Content
 

@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19F3A792414E52600B43BE7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F3A782414E52600B43BE7 /* Game.swift */; };
 		C1B8AE62240AB2B8000129AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8AE61240AB2B8000129AA /* AppDelegate.swift */; };
 		C1B8AE64240AB2B8000129AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8AE63240AB2B8000129AA /* SceneDelegate.swift */; };
 		C1B8AE66240AB2B8000129AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8AE65240AB2B8000129AA /* ContentView.swift */; };
 		C1B8AE68240AB2B9000129AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B8AE67240AB2B9000129AA /* Assets.xcassets */; };
 		C1B8AE6B240AB2B9000129AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B8AE6A240AB2B9000129AA /* Preview Assets.xcassets */; };
 		C1B8AE6E240AB2B9000129AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B8AE6C240AB2B9000129AA /* LaunchScreen.storyboard */; };
-		C1C690A4240B593B00B22B8C /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690A3240B593B00B22B8C /* GameState.swift */; };
 		C1C690A6240B595900B22B8C /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690A5240B595900B22B8C /* Moves.swift */; };
-		C1C690A8240B598A00B22B8C /* MoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690A7240B598A00B22B8C /* MoveEmoji.swift */; };
-		C1C690AC240B59D700B22B8C /* MovesStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690AB240B59D700B22B8C /* MovesStack.swift */; };
+		C1C690A8240B598A00B22B8C /* MoveEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690A7240B598A00B22B8C /* MoveEmojiView.swift */; };
+		C1C690AC240B59D700B22B8C /* MoveStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C690AB240B59D700B22B8C /* MoveStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C19F3A782414E52600B43BE7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C1B8AE5E240AB2B8000129AA /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B8AE61240AB2B8000129AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1B8AE63240AB2B8000129AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +29,9 @@
 		C1B8AE6A240AB2B9000129AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1B8AE6D240AB2B9000129AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1B8AE6F240AB2B9000129AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1C690A3240B593B00B22B8C /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		C1C690A5240B595900B22B8C /* Moves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moves.swift; sourceTree = "<group>"; };
-		C1C690A7240B598A00B22B8C /* MoveEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveEmoji.swift; sourceTree = "<group>"; };
-		C1C690AB240B59D700B22B8C /* MovesStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesStack.swift; sourceTree = "<group>"; };
+		C1C690A7240B598A00B22B8C /* MoveEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveEmojiView.swift; sourceTree = "<group>"; };
+		C1C690AB240B59D700B22B8C /* MoveStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,6 @@
 				C1C690AA240B59B900B22B8C /* View */,
 				C1B8AE61240AB2B8000129AA /* AppDelegate.swift */,
 				C1B8AE63240AB2B8000129AA /* SceneDelegate.swift */,
-				C1B8AE65240AB2B8000129AA /* ContentView.swift */,
 				C1B8AE67240AB2B9000129AA /* Assets.xcassets */,
 				C1B8AE6C240AB2B9000129AA /* LaunchScreen.storyboard */,
 				C1B8AE6F240AB2B9000129AA /* Info.plist */,
@@ -88,8 +87,8 @@
 		C1C690A9240B59AF00B22B8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C19F3A782414E52600B43BE7 /* Game.swift */,
 				C1C690A5240B595900B22B8C /* Moves.swift */,
-				C1C690A3240B593B00B22B8C /* GameState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,8 +96,9 @@
 		C1C690AA240B59B900B22B8C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C1C690A7240B598A00B22B8C /* MoveEmoji.swift */,
-				C1C690AB240B59D700B22B8C /* MovesStack.swift */,
+				C1B8AE65240AB2B8000129AA /* ContentView.swift */,
+				C1C690A7240B598A00B22B8C /* MoveEmojiView.swift */,
+				C1C690AB240B59D700B22B8C /* MoveStackView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,13 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C690AC240B59D700B22B8C /* MovesStack.swift in Sources */,
+				C1C690AC240B59D700B22B8C /* MoveStackView.swift in Sources */,
 				C1B8AE62240AB2B8000129AA /* AppDelegate.swift in Sources */,
-				C1C690A4240B593B00B22B8C /* GameState.swift in Sources */,
 				C1B8AE64240AB2B8000129AA /* SceneDelegate.swift in Sources */,
 				C1C690A6240B595900B22B8C /* Moves.swift in Sources */,
 				C1B8AE66240AB2B8000129AA /* ContentView.swift in Sources */,
-				C1C690A8240B598A00B22B8C /* MoveEmoji.swift in Sources */,
+				C1C690A8240B598A00B22B8C /* MoveEmojiView.swift in Sources */,
+				C19F3A792414E52600B43BE7 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
